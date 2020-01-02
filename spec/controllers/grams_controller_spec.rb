@@ -171,6 +171,5 @@ end
       expect(response).to have_http_status(:unprocessable_entity)
       expect(gram_count).to eq Gram.count
     end
-
   end
 end
