@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe CommentsController, type: :controller do
+  
   describe "comments#create action" do
 
      it "should allow users to create comments on grams" do
